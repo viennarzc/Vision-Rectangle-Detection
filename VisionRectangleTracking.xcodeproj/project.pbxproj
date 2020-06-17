@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		86B8F2082499D06F006308E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B8F2072499D06F006308E9 /* AppDelegate.swift */; };
-		86B8F20A2499D06F006308E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B8F2092499D06F006308E9 /* SceneDelegate.swift */; };
 		86B8F20C2499D06F006308E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B8F20B2499D06F006308E9 /* ViewController.swift */; };
 		86B8F20F2499D06F006308E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B8F20D2499D06F006308E9 /* Main.storyboard */; };
 		86B8F2112499D073006308E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B8F2102499D073006308E9 /* Assets.xcassets */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		86B8F2042499D06F006308E9 /* VisionRectangleTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionRectangleTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B8F2072499D06F006308E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86B8F2092499D06F006308E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		86B8F20B2499D06F006308E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		86B8F20E2499D06F006308E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86B8F2102499D073006308E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				86B8F2072499D06F006308E9 /* AppDelegate.swift */,
-				86B8F2092499D06F006308E9 /* SceneDelegate.swift */,
 				86B8F20B2499D06F006308E9 /* ViewController.swift */,
 				86B8F20D2499D06F006308E9 /* Main.storyboard */,
 				86B8F2102499D073006308E9 /* Assets.xcassets */,
@@ -261,7 +258,6 @@
 			files = (
 				86B8F20C2499D06F006308E9 /* ViewController.swift in Sources */,
 				86B8F2082499D06F006308E9 /* AppDelegate.swift in Sources */,
-				86B8F20A2499D06F006308E9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6UWE2EP59T;
 				INFOPLIST_FILE = VisionRectangleTracking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +452,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6UWE2EP59T;
 				INFOPLIST_FILE = VisionRectangleTracking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
