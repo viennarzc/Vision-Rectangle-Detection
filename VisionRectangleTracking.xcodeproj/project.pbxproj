@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		865A3538249CBD2B00BD1FDC /* CoreGraphicsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865A3537249CBD2B00BD1FDC /* CoreGraphicsExtensions.swift */; };
 		86B8F2082499D06F006308E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B8F2072499D06F006308E9 /* AppDelegate.swift */; };
 		86B8F20C2499D06F006308E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B8F20B2499D06F006308E9 /* ViewController.swift */; };
 		86B8F20F2499D06F006308E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B8F20D2499D06F006308E9 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		865A3537249CBD2B00BD1FDC /* CoreGraphicsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreGraphicsExtensions.swift; sourceTree = "<group>"; };
 		86B8F2042499D06F006308E9 /* VisionRectangleTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisionRectangleTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B8F2072499D06F006308E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86B8F20B2499D06F006308E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				86B8F2072499D06F006308E9 /* AppDelegate.swift */,
 				86B8F20B2499D06F006308E9 /* ViewController.swift */,
+				865A3537249CBD2B00BD1FDC /* CoreGraphicsExtensions.swift */,
 				86B8F20D2499D06F006308E9 /* Main.storyboard */,
 				86B8F2102499D073006308E9 /* Assets.xcassets */,
 				86B8F2122499D073006308E9 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				86B8F20C2499D06F006308E9 /* ViewController.swift in Sources */,
 				86B8F2082499D06F006308E9 /* AppDelegate.swift in Sources */,
+				865A3538249CBD2B00BD1FDC /* CoreGraphicsExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
